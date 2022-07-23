@@ -314,3 +314,213 @@ body{
 .footer-area h3 a:hover{
     text-decoration: none;
 }
+
+@media (min-width: 1200px) {
+
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .wlc-content {
+        padding-left: 0;
+    }
+    .wlc-content h1 {
+        font-size: 60px;
+        line-height: 84px;
+    }
+    .daily-access-lessons-area {
+        padding-bottom: 0;
+    }
+    .lessons-menu li {
+        width: 110px;
+    }
+    .lessons-menu li a {
+        font-size: 20px;
+    }
+    .price-content ul {
+        padding: 0 40px 0 80px;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .logo::before {
+        content:none;
+    }
+    .wlc-content {
+        text-align: center;
+        padding-left: 0;
+        padding-top: 60px;
+    }
+    .wlc-content p {
+        line-height: 42px;
+        margin: 0;
+    }
+    .price-table-area .col-lg-6:not(:first-child) .single-price-table {
+        margin-top: 80px;
+    }
+    .single-price-table {
+        margin: auto;
+    }
+    .lessons-menu li {
+        width: 84px;
+    }
+    .lessons-menu li a {
+        font-size: 20px;
+    }
+    .lessons-menu li:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px)  {
+    .wlc-hero-area {
+        padding: 40px 0px;
+    }
+    .wlc-hero-area .row>.col-lg-5:first-child {
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+    .wlc-hero-area .row>.col-lg-5:last-child {
+        flex: 0 0 55%;
+        max-width: 55%;
+    }
+    .logo {
+        padding: 40px 20px;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .wlc-content {
+        padding-left: 0;
+    }
+    .wlc-content h1 {
+        font-size: 40px;
+        line-height: 43px;
+        margin-bottom: 15px;
+    }
+    .wlc-content p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .wlc-content p br{display: none;}
+    .access-lessons p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .lessons-menu li {
+        width: 30%;
+    }
+    .lessons-menu li a {
+        font-size: 20px;
+    }
+    .lessons-menu li:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    .upgrade-lesson {
+        padding: 50px 25px;
+        width: 100%;
+    }
+    .upgrade-lesson h2 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .daily-access-lessons-area {
+        padding-bottom: 0;
+    }
+    .price-table-area .col-lg-6:not(:first-child) .single-price-table {
+        margin-top: 80px;
+    }
+    .cta-content a {
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .logo{
+        padding: 30px;
+    }
+    .logo::before, .upgrade-lesson::before, .upgrade-lesson::after {
+        content:none;
+    }
+    .wlc-hero-area {
+        padding: 30px 0px 50px;
+    }
+    .wlc-content {
+        padding-left: 0;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .wlc-content h1 {
+        font-size: 46px;
+        line-height: 65px;
+        margin-bottom: 15px;
+    }
+    .wlc-content p {
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .daily-access-lessons-area {
+        padding-bottom: 0;
+    }
+    .access-lessons p {
+        font-size: 28px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .lessons-menu {
+        justify-content: space-around;
+    }
+    .lessons-menu li:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    .lessons-menu li a {
+        font-size: 22px;
+    }
+    .upgrade-lesson {
+        padding: 30px 20px;
+        width: 100%;
+    }
+    .upgrade-lesson h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .upgrade-lesson p {
+        font-size: 17px;
+    }
+    .price-table-area {
+        padding: 50px 0;
+    }
+    .price-content p.text-center br {
+        display: none;
+    }
+    .price-content ul {
+        margin: 40px 0 60px;
+        padding: 0 30px 0 80px;
+    }
+    .price-content ul li {
+        font-size: 18px;
+    }
+    .price-table-area .col-lg-6:not(:first-child) .single-price-table {
+        margin-top: 80px;
+    }
+    .price-header h2, .price-content h2.price, .cta-content h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .price-content span {
+        font-size: 16px;
+        padding: 0 30px;
+    }
+    .cta-content a {
+        font-size: 20px;
+        padding: 13px 30px;
+        line-height: normal;
+    }
+    
+}
